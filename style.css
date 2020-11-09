@@ -1,0 +1,128 @@
+body {
+    height: 100vh;
+    background: linear-gradient(90deg, #060147, #0b1c36);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: "Popins" ,sans-serif;
+    font-size: 14px;
+    
+}
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.header {
+    width: 95%;
+    border-radius: 9px;
+    padding: 12px;
+    box-shadow: 0 10px 20px rgba(124, 122, 122, 0.19);
+
+}
+
+.header-theme {
+    color: #BDC3C7;
+    
+}
+
+.content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    align-items: center;
+    margin: auto;
+    
+    
+}
+
+#mass{
+   
+    margin: 50px 100px 50px 100px; 
+    text-align: center;
+    
+
+    
+}
+label{
+    
+    color: whitesmoke;
+
+}
+    
+#planets{
+    margin: 10px 100px 50px 100px; 
+    
+
+}
+
+
+button{
+  
+    background-color: #efefef;
+    border: 1px solid #bbbbbb;
+    border-radius: 7px;
+    text-decoration: none;
+    outline: none;
+    padding: 3px 10px;
+    font-family: "Popins" ,sans-serif;
+    
+}
+button:hover{
+    background-color: lightgrey;
+    font-weight: 600;
+}
+p {
+    color: whitesmoke;
+    
+}
+
+footer {
+    width: 100%;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    font-size: 12px;
+   
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .content {
+        width: 70%;
+
+    }
+    body #mass, #planets, button {
+        font-size: 16px ;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .content {
+        width: 70%;
+        margin: 0 auto;
+
+    }
+    body, #mass, #planets, button  {
+        font-size: 20px;
+    }
+
+}
+
